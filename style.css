@@ -1,0 +1,21 @@
+#app {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    margin-left: 20px;
+    background-color: inherit;
+    border: 1px solid grey;
+    cursor: pointer;
+    outline: none;
+    transition: .1s trnsform ease-in;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+.stopwatch {
+    margin-left: 47px;
+}
